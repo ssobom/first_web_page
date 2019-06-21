@@ -1,6 +1,6 @@
 @font-face {
     font-family: FontopoNIHONGO;
-    src: url(https://github.com/ssobom/first_web_page/blob/master/FontopoNIHONGO.woff);
+    src: url(/ssobom/first_web_page/blob/master/FontopoNIHONGO.woff);
 }
 body {
     font-family: FontopoNIHONGO;
