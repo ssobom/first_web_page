@@ -1,51 +1,123 @@
 @font-face {
     font-family: FontopoNIHONGO;
-    src: url(/ssobom/first_web_page/blob/master/FontopoNIHONGO.woff);
+    src: url(FontopoNIHONGO.woff);
 }
 body {
     font-family: FontopoNIHONGO;
+    font-size: 16px;
+    margin: 0px;
 }
 h1 {
-    font-size:36px;
+    font-size: 36px;
     letter-spacing: 0.2em;
 }
 h2 {
+    background-color: #99a9c6;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 0px 10px 20px;
+    border-left: 20px solid #994c4c;
 
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
 }
 
 /* header&footer */
-
 .header {
-    width: 1080px;
-    height: 150px;
-    background-color: #cccccc;
+    font-family: FontopoNIHONGO;
+    height: 100px;
+    border-bottom: 2px dotted #c6c6c6;
 }
 .header-logo {
-    padding: 10px 80px 20px 20px;
+    padding: 0px 40px 0px 20px;
     float: left;
 }
 .header-menu {
 }
 .header-menu ul{
+    float: right;
 }
 .header-menu li{
     float: left;
     list-style: none;
-    padding: 50px 30px 30px 30px;
+    padding: 20px 30px 0px 50px;
+}
+.header-menu li:first-child{
+    padding: 20px 30px 0px 120px;
 }
 
 .footer {
-
+    background-color: #333333;
+    color: #ffffff;
+}
+.footer a{
+    color: #ffffff;
+}
+.footer a:hover{
+    color:#c3c9c9;
 }
 .footer-menu {
-
 }
 .footer-menu ul{
-
 }
 .footer-menu li{
-
+    float: left;
+    list-style: none;
+    padding: 20px 30px;
+}
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0px;
 }
 
 /* main */
-.main
+.cb{ clear: both;}
+.main {
+    padding: 0px 20px;
+}
+.recommend-img img{
+    width: 500px;
+    padding: 10px 20px;
+    float: left;
+}
+.recommend-img-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.photo { flex-basis: 80px;}
+.photo img { width: 80px;}
+.detail{
+    padding: 20px 20px;
+    border-spacing: 0px;
+}
+.detail th{
+    background-color: #99a9c6;
+    padding: 10px 30px;
+    border: 1px dotted #c6c6c6;
+}
+.detail td{
+    padding: 10px 20px;
+    border: 1px solid #c6c6c6;
+}
+.text {
+    padding: 20px 20px;
+}   
+}
+.contact {
+    padding: 10px 20px;
+}
+.contact th {
+    padding: 10px 30px;
+}ß
+.contact td{
+    padding: 10px 20px;
+}
+
