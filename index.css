@@ -1,0 +1,51 @@
+@font-face {
+    font-family: FontopoNIHONGO;
+    src: url(https://github.com/ssobom/first_web_page/blob/master/FontopoNIHONGO.woff);
+}
+body {
+    font-family: FontopoNIHONGO;
+}
+h1 {
+    font-size:36px;
+    letter-spacing: 0.2em;
+}
+h2 {
+
+}
+
+/* header&footer */
+
+.header {
+    width: 1080px;
+    height: 150px;
+    background-color: #cccccc;
+}
+.header-logo {
+    padding: 10px 80px 20px 20px;
+    float: left;
+}
+.header-menu {
+}
+.header-menu ul{
+}
+.header-menu li{
+    float: left;
+    list-style: none;
+    padding: 50px 30px 30px 30px;
+}
+
+.footer {
+
+}
+.footer-menu {
+
+}
+.footer-menu ul{
+
+}
+.footer-menu li{
+
+}
+
+/* main */
+.main
