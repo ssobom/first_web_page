@@ -47,6 +47,9 @@ li a:hover{
     list-style: none;
     padding: 20px 30px 0px 50px;
 }
+.header-menu li a,a:hover{
+    color: #00000;
+}
 .header-menu li:first-child{
     padding: 20px 30px 0px 120px;
 }
@@ -101,16 +104,34 @@ li a:hover{
 .detail th{
     background-color: #99a9c6;
     padding: 10px 30px;
-    border: 1px dotted #c6c6c6;
+    border-top: 1px dotted #c6c6c6;
+    border-left: 1px dotted #c6c6c6;
+}
+.detail th:last-child{
+    background-color: #99a9c6;
+    padding: 10px 30px;
+    border-top: 1px dotted #c6c6c6;
+    border-left: 1px dotted #c6c6c6;
+    border-bottom: 1px dotted #c6c6c6;
 }
 .detail td{
     padding: 10px 20px;
+    border-top: 1px solid #c6c6c6;
+    border-left: 1px solid #c6c6c6;
+}
+.detail td:last-child{
+    padding: 10px 20px;
     border: 1px solid #c6c6c6;
+}
+.detail td:nth-child(odd){
+    padding: 10px 20px;
+    border-top: 1px solid #c6c6c6;
+    border-left: 1px solid #c6c6c6;
+    border-right: 1px solid #c6c6c6;
 }
 .text {
     padding: 20px 20px;
 }   
-}
 .contact {
     padding: 10px 20px;
 }
@@ -120,4 +141,6 @@ li a:hover{
 .contact td{
     padding: 10px 20px;
 }
-
+.submit {
+    padding: 10px 20px;
+}
